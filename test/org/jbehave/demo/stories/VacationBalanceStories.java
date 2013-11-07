@@ -8,23 +8,25 @@ import org.jbehave.core.junit.JUnitStory;
 import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.jbehave.core.steps.InjectableStepsFactory;
 import org.jbehave.core.steps.InstanceStepsFactory;
-import org.jbehave.demo.steps.AboutUsPage;
 import org.jbehave.demo.steps.BeforeAndAfterSteps;
-import org.jbehave.demo.steps.BioPage;
-import org.jbehave.demo.steps.Search;
+import org.jbehave.demo.steps.VacationBalanceSteps;
+import org.jbehave.demo.steps.VacationBalancePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
 import java.net.MalformedURLException;
+import java.net.URL;
 
-public class SearchThoughtWorksSite extends JUnitStory {
+public class VacationBalanceStories extends JUnitStory {
 
     @Override
     public Configuration configuration() {
         try {
+            URL test = new File("test").toURI().toURL();
+            LoadFromRelativeFile storyLoader = new LoadFromRelativeFile(test);
             return new MostUsefulConfiguration()
-                    .useStoryLoader(new LoadFromRelativeFile(new File("test").toURI().toURL()))
+                    .useStoryLoader(storyLoader)
                             .usePendingStepStrategy(new FailingUponPendingStep())
                             .useStoryReporterBuilder(
                                     new StoryReporterBuilder()
@@ -37,11 +39,11 @@ public class SearchThoughtWorksSite extends JUnitStory {
     @Override
     public InjectableStepsFactory stepsFactory() {
         WebDriver driver = new FirefoxDriver();
+
+        VacationBalancePage vacationBalancePage = new VacationBalancePage(driver);
         return new InstanceStepsFactory(configuration(),
-                new BeforeAndAfterSteps(driver),
-                new AboutUsPage(driver),
-                new Search(driver),
-                new BioPage(driver)
+                new BeforeAndAfterSteps(driver, vacationBalancePage),
+                new VacationBalanceSteps(vacationBalancePage)
         );
     }
 
