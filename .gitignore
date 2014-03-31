@@ -1,2 +1,4 @@
-out
-target
+out/
+target/
+.idea/
+.DS_Store
