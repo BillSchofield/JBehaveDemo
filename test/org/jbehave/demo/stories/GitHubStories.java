@@ -27,7 +27,7 @@ import java.net.URL;
 import static org.jbehave.core.reporters.StoryReporterBuilder.Format.CONSOLE;
 import static org.jbehave.core.reporters.StoryReporterBuilder.Format.HTML;
 
-public class VacationBalanceStories extends JUnitStory {
+public class GitHubStories extends JUnitStory {
 
     @Override
     public Configuration configuration() {

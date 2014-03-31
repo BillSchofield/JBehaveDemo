@@ -15,7 +15,7 @@ public class BeforeAndAfterSteps {
     }
 
     @BeforeScenario
-    public void goToVacationBalancePage(){
+    public void goToGitHub(){
         landingPage.go();
     }
 

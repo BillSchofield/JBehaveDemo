@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9490638-9b80-4d63-9123-2d2803f322f2" name="Default" comment="" />
+    <list default="true" id="d9490638-9b80-4d63-9123-2d2803f322f2" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/stories/GitHubStories.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/stories/git_hub_stories.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="jbehavedemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,7 +73,7 @@
       <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="55" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="525">
+            <state line="28" column="55" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -83,28 +88,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vacation_balance_stories.story" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="95" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GithubLoginSteps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+            <state line="5" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VacationBalanceStories.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
+      <file leaf-file-name="GitHubStories.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/GitHubStories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.39" vertical-offset="0" max-vertical-offset="1050">
+            <state line="48" column="5" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.6886228" vertical-offset="0" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeforeAndAfterSteps.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -137,7 +142,6 @@
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/stories/SearchStories.java" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance.story" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/SearchSteps.java" />
-        <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/VacationBalancePage.java" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/LandingPage.java" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/LoginPage.java" />
@@ -148,11 +152,13 @@
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java" />
         <option value="$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java" />
+        <option value="$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java" />
+        <option value="$PROJECT_DIR$/test/org/jbehave/demo/stories/github_login_stories.story" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="94" />
+    <option name="x" value="105" />
     <option name="y" value="22" />
     <option name="width" value="1346" />
     <option name="height" value="878" />
@@ -183,6 +189,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -288,7 +295,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -601,6 +607,8 @@
       <workItem from="1396227195559" duration="73000" />
       <workItem from="1396227277819" duration="7754000" />
       <workItem from="1396239705055" duration="394000" />
+      <workItem from="1396270961567" duration="253000" />
+      <workItem from="1396271226681" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="Added Scenario to test RnR">
       <created>1383863858927</created>
@@ -614,14 +622,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8673000" />
+    <option name="totallyTimeSpent" value="9238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="22" width="1346" height="878" extended-state="6" />
+    <frame x="105" y="22" width="1346" height="878" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.326972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -678,6 +686,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="55" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="68" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/GitHubStories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="5" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="55" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="68" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="61" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
@@ -690,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="95" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="37" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="780">
@@ -704,23 +761,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="28" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -739,23 +782,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="28" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -770,13 +799,6 @@
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="16" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
@@ -788,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="32" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="585">
@@ -809,23 +824,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="28" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="51" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -840,13 +841,6 @@
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="16" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
@@ -932,30 +926,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/vacation_balance_stories.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="95" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jbehave-web-3.5.5/lib/jbehave-core.jar!/org/jbehave/core/reporters/StoryReporter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.16629712" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jbehave-web-3.5.5/lib/selenium-api.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="0" selection-start="5807" selection-end="5807" vertical-scroll-proportion="0.7607053" vertical-offset="1633" max-vertical-offset="2055">
-          <folding />
-        </state>
+        <state line="130" column="0" selection-start="5807" selection-end="5807" vertical-scroll-proportion="0.7607053" vertical-offset="1633" max-vertical-offset="2055" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java">
@@ -972,9 +950,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/VacationBalanceStories.java">
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="608" selection-end="608" vertical-scroll-proportion="0.39" vertical-offset="0" max-vertical-offset="1050">
+        <state line="23" column="33" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/jbehave/demo/stories/GitHubStories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="5" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.6886228" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
