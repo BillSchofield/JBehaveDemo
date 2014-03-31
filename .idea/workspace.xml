@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9490638-9b80-4d63-9123-2d2803f322f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/steps/BeforeAndAfterSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/steps/GithubLoginSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/pages/LandingPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/org/jbehave/demo/stories/git_hub_stories.story" afterPath="$PROJECT_DIR$/test/org/jbehave/demo/stories/git_hub_stories.story" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="jbehavedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -622,7 +618,7 @@
       <workItem from="1396271226681" duration="312000" />
       <workItem from="1396293330126" duration="979000" />
       <workItem from="1396302614341" duration="1178000" />
-      <workItem from="1396304417501" duration="674000" />
+      <workItem from="1396304417501" duration="883000" />
     </task>
     <task id="LOCAL-00001" summary="Added Scenario to test RnR">
       <created>1383863858927</created>
@@ -636,11 +632,15 @@
       <created>1396293430036</created>
       <updated>1396293430036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added 'And' step and some Xpath">
+      <created>1396305114882</created>
+      <updated>1396305114882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12069000" />
+    <option name="totallyTimeSpent" value="12278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="22" width="1352" height="878" extended-state="0" />
@@ -692,7 +692,8 @@
     <MESSAGE value="Added Scenario to test RnR" />
     <MESSAGE value="Changes example from RnR to GitHub" />
     <MESSAGE value="Fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo" />
+    <MESSAGE value="Added 'And' step and some Xpath" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 'And' step and some Xpath" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
