@@ -1,4 +1,4 @@
-Scenario: Logging allows repo creation
+Scenario: Login allows repo creation
 
 Given I have created an account
 When I login to GitHub
