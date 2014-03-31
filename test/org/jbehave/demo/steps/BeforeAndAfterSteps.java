@@ -1,5 +1,6 @@
 package org.jbehave.demo.steps;
 
+import org.jbehave.core.annotations.AfterStories;
 import org.jbehave.core.annotations.BeforeScenario;
 import org.jbehave.demo.pages.LandingPage;
 import org.openqa.selenium.WebDriver;
@@ -14,14 +15,8 @@ public class BeforeAndAfterSteps {
         this.landingPage = landingPage;
     }
 
-    @BeforeScenario
-    public void goToGitHub(){
-        landingPage.go();
+    @AfterStories
+    public void quitBrowser() {
+        driver.quit();
     }
-
-//    @AfterStories
-//    @AfterScenario(uponOutcome = AfterScenario.Outcome.FAILURE)
-//    public void quitBrowser() {
-//        driver.quit();
-//    }
 }

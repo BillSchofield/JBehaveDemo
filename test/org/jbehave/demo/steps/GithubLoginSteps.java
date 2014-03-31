@@ -32,9 +32,15 @@ public class GithubLoginSteps {
 
     @When("I login to GitHub")
     public void login() {
+        landingPage.go();
         landingPage.login();
         loginPage.login(username, password);
+    }
 
+    @Then("I am logged in")
+    public void verifyCorrectUserIsLoggedIn() {
+        final String loggedInUser = landingPage.loggedInUser();
+        assertThat(loggedInUser, is(username));
     }
 
     @Then("I can create new repositories")
