@@ -618,7 +618,7 @@
       <workItem from="1396271226681" duration="312000" />
       <workItem from="1396293330126" duration="979000" />
       <workItem from="1396302614341" duration="1178000" />
-      <workItem from="1396304417501" duration="883000" />
+      <workItem from="1396304417501" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="Added Scenario to test RnR">
       <created>1383863858927</created>
@@ -636,11 +636,15 @@
       <created>1396305114882</created>
       <updated>1396305114882</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed workspace.xml">
+      <created>1396305310807</created>
+      <updated>1396305310807</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12278000" />
+    <option name="totallyTimeSpent" value="12295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="22" width="1352" height="878" extended-state="0" />
@@ -693,7 +697,8 @@
     <MESSAGE value="Changes example from RnR to GitHub" />
     <MESSAGE value="Fixed typo" />
     <MESSAGE value="Added 'And' step and some Xpath" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 'And' step and some Xpath" />
+    <MESSAGE value="Removed workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed workspace.xml" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
