@@ -3,8 +3,13 @@ package org.jbehave.demo.steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
+import org.jbehave.core.model.ExamplesTable;
 import org.jbehave.demo.pages.LandingPage;
 import org.jbehave.demo.pages.LoginPage;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -17,10 +22,12 @@ public class GithubLoginSteps {
     private LoginPage loginPage;
     private String username="";
     private String password="";
+    private final List<Integer> actualResults;
 
     public GithubLoginSteps(LandingPage landingPage, LoginPage loginPage) {
         this.landingPage = landingPage;
         this.loginPage = loginPage;
+        actualResults = new ArrayList<Integer>();
     }
 
     @Given("I have created an account")
@@ -47,4 +54,23 @@ public class GithubLoginSteps {
     public void verifyUserCanCreateRepo() {
         assertTrue(landingPage.canCreateRepository());
     }
+
+    @When("I add these numbers:$numbers")
+    public void addNumbers(ExamplesTable numbers){
+        for (Map<String, String> row : numbers.getRows()) {
+            final int x = Integer.parseInt(row.get("x"));
+            final int y = Integer.parseInt(row.get("y"));
+            actualResults.add(x + y);
+        }
+    }
+
+    @Then("I get these numbers:$numbers")
+    public void verifyResultsOfAddition(ExamplesTable numbers){
+        List<Integer> expectedResults = new ArrayList<Integer>();
+        for (Map<String, String> row : numbers.getRows()) {
+            expectedResults.add(Integer.parseInt(row.get("result")));
+        }
+        assertThat(actualResults, is(expectedResults));
+    }
+
 }

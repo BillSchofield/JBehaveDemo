@@ -1,5 +1,6 @@
 package org.jbehave.demo.steps;
 
+import org.jbehave.core.annotations.AfterScenario;
 import org.jbehave.core.annotations.AfterStories;
 import org.jbehave.core.annotations.BeforeScenario;
 import org.jbehave.demo.pages.LandingPage;
@@ -16,6 +17,7 @@ public class BeforeAndAfterSteps {
     }
 
     @AfterStories
+    @AfterScenario(uponOutcome = AfterScenario.Outcome.FAILURE)
     public void quitBrowser() {
         driver.quit();
     }
