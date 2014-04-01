@@ -5,6 +5,8 @@ import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.jbehave.core.model.ExamplesTable;
+import org.jbehave.demo.builders.PassengerBuilder;
+import org.jbehave.demo.domain.Passenger;
 import org.jbehave.demo.pages.LandingPage;
 import org.jbehave.demo.pages.LoginPage;
 
@@ -89,5 +91,14 @@ public class GithubLoginSteps {
     @Then("I have <totalApples> apples")
     public void verifyAppleTotal(@Named("totalApples") Integer totalApples){
         assertThat(startingApples + moreApples, is(totalApples));
+    }
+
+    @Given("a passenger named $name with loyalty number $loyalty")
+    public void createPassenger(String name, String loyalty){
+        final Passenger passenger = new PassengerBuilder()
+                .withName(name)
+                .withLoyaltyNumber(loyalty)
+                .build();
+
     }
 }

@@ -33,3 +33,7 @@ Examples:
 |             1|        10|         11|
 |            11|         1|         12|
 |            21|        11|         32|
+
+
+Scenario: Test builder
+Given a passenger named Bill Schofield with loyalty number 1234567
