@@ -1,6 +1,7 @@
 package org.jbehave.demo.steps;
 
 import org.jbehave.core.annotations.Given;
+import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.jbehave.core.model.ExamplesTable;
@@ -23,6 +24,8 @@ public class GithubLoginSteps {
     private String username="";
     private String password="";
     private final List<Integer> actualResults;
+    private Integer startingApples=0;
+    private Integer moreApples=0;
 
     public GithubLoginSteps(LandingPage landingPage, LoginPage loginPage) {
         this.landingPage = landingPage;
@@ -73,4 +76,18 @@ public class GithubLoginSteps {
         assertThat(actualResults, is(expectedResults));
     }
 
+    @Given("<startingApples> apples")
+    public void startingApples(@Named("startingApples") Integer startingApples){
+        this.startingApples = startingApples;
+    }
+
+    @When("I buy <moreApples> more apples")
+    public void buyApples(@Named("moreApples") Integer moreApples){
+        this.moreApples = moreApples;
+    }
+
+    @Then("I have <totalApples> apples")
+    public void verifyAppleTotal(@Named("totalApples") Integer totalApples){
+        assertThat(startingApples + moreApples, is(totalApples));
+    }
 }
