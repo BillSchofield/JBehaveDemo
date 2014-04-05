@@ -10,30 +10,3 @@ Given I have created an account
 When I login to GitHub
 Then I am logged in
 And I can create new repositories
-
-Scenario: Test addition using Tabular Parameters
-When I add these numbers:
-| x| y |
-| 1| 2 |
-| 2| 3 |
-| 3|-4 |
-Then I get these numbers:
-|result|
-|  3 |
-|  5 |
-| -1 |
-
-Scenario: Test addition for kids using Parametrised Scenarios
-Given <startingApples> apples
-When I buy <moreApples> more apples
-Then I have <totalApples> apples
-
-Examples:
-|startingApples|moreApples|totalApples|
-|             1|        10|         11|
-|            11|         1|         12|
-|            21|        11|         32|
-
-
-Scenario: Test builder
-Given a passenger named Bill Schofield with loyalty number 1234567
